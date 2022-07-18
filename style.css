@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./imagem_corinthians.jpg);
+    background-size: cover;
+    display: flex;
+    background-color: #b8c6db;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container_questionario{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px gray;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+   
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+.texto_questionario{
+    padding: 4rem;
+}
+
+button{
+    background-color:#494949;
+    color: #ffffff;
+    padding: 2rem;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color:#0c0c0c;
+}
